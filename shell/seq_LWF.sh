@@ -1,6 +1,6 @@
 export CUDA_VISIBLE_DEVICES=0,1
 LOG_NAME=2card_seq_LWF
-OUT_DIR=/mnt2/save_1M_seq_finetune/${LOG_NAME}
+OUT_DIR=/kaggle/working/${LOG_NAME}
 
 cd ../train/
 python -m torch.distributed.run --nproc_per_node=2 --master_port=12600 train_LWF.py \
