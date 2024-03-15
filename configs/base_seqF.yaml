@@ -15,7 +15,7 @@ batch_size_test: 64
 
 # optimizer
 weight_decay: 0.05
-init_lr: 3e-5
+init_lr: 3e-4
 min_lr: 1e-6
 k_test: 10
 max_words: 30
