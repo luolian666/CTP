@@ -1,10 +1,10 @@
-train_file: '/root/xray/train_500.json'
-test_file: '/root/xray/test_500.json'
-query_file: '/root/xray/test_500.json'
-gallery_file: '/root/xray/test_500.json'
-train_image_root: '/root/xray/train'
-test_image_root: '/root/xray/test'
-gallery_image_root: '/root/xray/gallery_image_root'
+train_file: '/kaggle/working/xray/train_500.json'
+test_file: '/kaggle/working/xray/test_500.json'
+query_file: '/kaggle/working/xray/test_500.json'
+gallery_file: '/kaggle/working/xray/gallery_image_root.json'
+train_image_root: '/kaggle/working/xray/train'
+test_image_root: '/kaggle/working/xray/test'
+gallery_image_root: '/kaggle/working/xray/gallery_image_root'
 
 vit: 'base'
 vit_grad_ckpt: False
