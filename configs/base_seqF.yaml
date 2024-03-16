@@ -10,15 +10,15 @@ vit: 'base'
 vit_grad_ckpt: False
 vit_ckpt_layer: 0
 image_size: 224
-batch_size_train: 16
-batch_size_test: 16
+batch_size_train: 32
+batch_size_test: 32
 
 # optimizer
 weight_decay: 0.05
 init_lr: 3e-5
 min_lr: 1e-7
 k_test: 10
-max_words: 200
+max_words: 100
 window_size: 50
 
 #CL
