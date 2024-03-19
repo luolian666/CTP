@@ -43,7 +43,7 @@ class pretrain_product(Dataset):
     def __getitem__(self, index):
 
         item_id, caption, cate_name = self.data_list[index]
-        image_path = "{}/{}.png".format(self.image_path, item_id)
+        image_path = "{}/{}.jpg".format(self.image_path, item_id)
         try:
             image = Image.open(image_path).convert('RGB')
         except:
