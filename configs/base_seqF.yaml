@@ -22,7 +22,7 @@ max_words: 80
 window_size: 50
 
 #CL
-max_epoch: 2
+max_epoch: 3
 task: ['Normal', 'Abnormal', 'Uncategorized']
 base_mode: 'seqF'
 
