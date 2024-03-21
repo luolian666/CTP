@@ -24,176 +24,176 @@ window_size: 50
 #CL
 max_epoch: 5
 #task: ['Normal', 'Abnormal', 'Uncategorized']
-task: [“'Lung Lesion'”
-“'Support Devices'”
-“'Lung Opacity'”
-“'No Finding'”
-“'Edema', 'Lung Opacity', 'Support Devices'”
-“'Cardiomegaly'”
-“'No Finding', 'Support Devices'”
-“'Atelectasis', 'Lung Opacity', 'Pleural Effusion'”
-“'Cardiomegaly', 'Pleural Effusion', 'Support Devices'”
-“'Cardiomegaly', 'Support Devices'”
-“'Cardiomegaly', 'Edema'”
-“'Pleural Effusion', 'Support Devices'”
-“'Cardiomegaly', 'Consolidation', 'Pleural Effusion', 'Support Devices'”
-“'Atelectasis', 'Lung Opacity', 'Pleural Effusion', 'Support Devices'”
-“'Edema', 'Support Devices'”
-“'Atelectasis', 'Cardiomegaly', 'Edema', 'Pleural Effusion'”
-“'Atelectasis', 'Pleural Effusion', 'Support Devices'”
-“'Pneumonia'”
-“'Atelectasis', 'Cardiomegaly', 'Edema', 'Lung Opacity', 'Pleural Effusion', 'Support Devices'”
-“'Atelectasis', 'Support Devices'”
-“'Atelectasis', 'Cardiomegaly', 'Lung Opacity', 'Pleural Effusion'”
-“'Cardiomegaly', 'Lung Opacity', 'Support Devices'”
-“'Atelectasis', 'Pleural Effusion'”
-“'Atelectasis'”
-“'Cardiomegaly', 'Lung Opacity', 'Pneumonia'”
-“'Edema', 'Lung Opacity', 'Pleural Effusion', 'Support Devices'”
-“'Edema', 'Pleural Effusion', 'Support Devices'”
-“'Atelectasis', 'Pneumothorax', 'Support Devices'”
-“'Atelectasis', 'Pleural Effusion', 'Pneumothorax', 'Support Devices'”
-“'Cardiomegaly', 'Lung Opacity', 'Pleural Effusion', 'Support Devices'”
-“'Cardiomegaly', 'Pleural Effusion'”
-“'Atelectasis', 'Cardiomegaly', 'Pleural Effusion', 'Support Devices'”
-“'Pleural Effusion'”
-“'Lung Opacity', 'Pleural Effusion', 'Pneumonia', 'Support Devices'”
-“'Lung Opacity', 'Support Devices'”
-“'Consolidation', 'Lung Opacity', 'Support Devices'”
-“'Edema', 'Pleural Effusion'”
-“'Pneumothorax', 'Support Devices'”
-“'Consolidation', 'Support Devices'”
-“'Lung Lesion', 'Lung Opacity', 'Support Devices'”
-“'Lung Opacity', 'Pleural Effusion', 'Pneumothorax', 'Support Devices'”
-“'Atelectasis', 'Cardiomegaly', 'Support Devices'”
-“'Atelectasis', 'Enlarged Cardiomediastinum', 'Lung Opacity', 'Support Devices'”
-“'Lung Opacity', 'Pleural Effusion'”
-“'Atelectasis', 'Cardiomegaly'”
-“'Atelectasis', 'Cardiomegaly', 'Edema', 'Pleural Effusion', 'Support Devices'”
-“'Atelectasis', 'Pneumothorax'”
-“'Consolidation', 'Pleural Effusion'”
-“'Cardiomegaly', 'Edema', 'Lung Opacity', 'Pneumonia'”
-“'Fracture', 'Support Devices'”
-“'Lung Opacity', 'Pleural Effusion', 'Support Devices'”
-“'Cardiomegaly', 'Edema', 'Lung Opacity', 'Pleural Effusion', 'Support Devices'”
-“'Edema', 'Lung Opacity', 'Pleural Effusion', 'Pneumonia', 'Support Devices'”
-“'Atelectasis', 'Cardiomegaly', 'Pleural Effusion'”
-“'Atelectasis', 'Edema', 'Lung Opacity', 'Pleural Effusion', 'Support Devices'”
-“'Atelectasis', 'Cardiomegaly', 'Pneumothorax', 'Support Devices'”
-“'Atelectasis', 'Cardiomegaly', 'Edema', 'Support Devices'”
-“'Atelectasis', 'Lung Opacity', 'Support Devices'”
-“'Edema', 'Lung Opacity'”
-“'Edema', 'Lung Opacity', 'Pleural Effusion'”
-“'Cardiomegaly', 'Lung Opacity'”
-“'Cardiomegaly', 'Enlarged Cardiomediastinum'”
-“'Atelectasis', 'Edema', 'Lung Opacity', 'Pleural Effusion'”
-“'Edema'”
-“'Enlarged Cardiomediastinum'”
-“'Cardiomegaly', 'Lung Opacity', 'Pleural Effusion'”
-“'Cardiomegaly', 'Edema', 'Lung Opacity', 'Pleural Effusion'”
-“'Edema', 'Pneumonia'”
-“'Consolidation', 'Edema', 'Pleural Effusion', 'Support Devices'”
-“'Cardiomegaly', 'Edema', 'Support Devices'”
-“'Lung Lesion', 'Lung Opacity', 'Pleural Effusion'”
-“'Cardiomegaly', 'Consolidation', 'Edema', 'Pleural Effusion'”
-“'Cardiomegaly', 'Consolidation'”
-“'Cardiomegaly', 'Pneumonia'”
-“'Atelectasis', 'Enlarged Cardiomediastinum', 'Lung Opacity', 'Pleural Effusion', 'Support Devices'”
-“'Consolidation', 'Pneumonia'”
-“'Atelectasis', 'Enlarged Cardiomediastinum', 'Pleural Effusion', 'Support Devices'”
-“'Atelectasis', 'Edema', 'Pleural Effusion', 'Support Devices'”
-“'Atelectasis', 'Cardiomegaly', 'Edema', 'Lung Opacity', 'Pleural Effusion'”
-“'Pleural Effusion', 'Pneumonia'”
-“'Consolidation', 'Lung Opacity', 'Pleural Effusion', 'Support Devices'”
-“'Enlarged Cardiomediastinum', 'Lung Opacity', 'Support Devices'”
-“'Pneumothorax'”
-“'Consolidation', 'Pneumonia', 'Support Devices'”
-“'Lung Opacity', 'Pneumonia'”
-“'Consolidation', 'Pleural Effusion', 'Support Devices'”
-“'Consolidation', 'Lung Opacity'”
-“'Lung Opacity', 'Pneumonia', 'Support Devices'”
-“'Edema', 'Lung Opacity', 'Pneumonia', 'Support Devices'”
-“'Atelectasis', 'Cardiomegaly', 'Lung Opacity', 'Support Devices'”
-“'Atelectasis', 'Cardiomegaly', 'Pleural Effusion', 'Pneumothorax', 'Support Devices'”
-“'Atelectasis', 'Lung Opacity', 'Pleural Effusion', 'Pneumothorax', 'Support Devices'”
-“'Cardiomegaly', 'Edema', 'Pleural Effusion', 'Support Devices'”
-“'Atelectasis', 'Consolidation', 'Pleural Effusion', 'Support Devices'”
-“'Cardiomegaly', 'Edema', 'Lung Opacity'”
-“'Lung Opacity', 'Pleural Effusion', 'Pneumonia'”
-“'Atelectasis', 'Edema', 'Support Devices'”
-“'Cardiomegaly', 'Pneumothorax', 'Support Devices'”
-“'Atelectasis', 'Edema', 'Pleural Effusion'”
-“'Atelectasis', 'Lung Opacity', 'Pleural Effusion', 'Pneumonia', 'Support Devices'”
-“'Atelectasis', 'Lung Opacity'”
-“'Consolidation', 'Pleural Effusion', 'Pneumonia', 'Support Devices'”
-“'Atelectasis', 'Cardiomegaly', 'Lung Opacity'”
-“'Pneumonia', 'Support Devices'”
-“'Cardiomegaly', 'Consolidation', 'Lung Opacity', 'Support Devices'”
-“'Cardiomegaly', 'Consolidation', 'Edema', 'Pleural Effusion', 'Support Devices'”
-“'Consolidation', 'Edema', 'Pleural Effusion'”
-“'Consolidation'”
-“'Atelectasis', 'Cardiomegaly', 'Edema'”
-“'Atelectasis', 'Lung Opacity', 'Pneumonia', 'Support Devices'”
-“'Lung Opacity', 'Pneumothorax', 'Support Devices'”
-“'Pleural Effusion', 'Pneumothorax', 'Support Devices'”
-“'Atelectasis', 'Cardiomegaly', 'Consolidation', 'Pleural Effusion', 'Support Devices'”
-“'Atelectasis', 'Edema', 'Lung Opacity'”
-“'Atelectasis', 'Cardiomegaly', 'Lung Opacity', 'Pleural Effusion', 'Support Devices'”
-“'Enlarged Cardiomediastinum', 'Pleural Effusion', 'Support Devices'”
-“'Atelectasis', 'Edema', 'Lung Opacity', 'Support Devices'”
-“'Pleural Effusion', 'Pneumothorax'”
-“'Lung Lesion', 'Lung Opacity'”
-“'Edema', 'Enlarged Cardiomediastinum', 'Pleural Effusion', 'Support Devices'”
-“'Edema', 'Pleural Effusion', 'Pneumonia', 'Support Devices'”
-“'Consolidation', 'Pneumothorax', 'Support Devices'”
-“'Enlarged Cardiomediastinum', 'Support Devices'”
-“'Edema', 'Lung Opacity', 'Pneumonia'”
-“'Cardiomegaly', 'Edema', 'Lung Opacity', 'Support Devices'”
-“'Cardiomegaly', 'Lung Opacity', 'Pleural Effusion', 'Pneumonia', 'Support Devices'”
-“'Atelectasis', 'Lung Opacity', 'Pneumonia'”
-“'Cardiomegaly', 'Enlarged Cardiomediastinum', 'Support Devices'”
-“'Atelectasis', 'Edema'”
-“'Cardiomegaly', 'Edema', 'Pleural Effusion'”
-“'Consolidation', 'Edema', 'Support Devices'”
-“'Lung Opacity', 'Pneumothorax'”
-“'Edema', 'Enlarged Cardiomediastinum', 'Support Devices'”
-“'Atelectasis', 'Consolidation'”
-“'Cardiomegaly', 'Lung Opacity', 'Pleural Effusion', 'Pneumonia'”
-“'Atelectasis', 'Pleural Effusion', 'Pneumothorax'”
-“'Fracture'”
-“'Cardiomegaly', 'Consolidation', 'Pleural Effusion'”
-“'Cardiomegaly', 'Edema', 'Lung Opacity', 'Pleural Effusion', 'Pneumonia'”
-“'Cardiomegaly', 'Pleural Effusion', 'Pneumothorax', 'Support Devices'”
-“'Cardiomegaly', 'Pneumothorax'”
-“'Cardiomegaly', 'Consolidation', 'Edema', 'Pleural Effusion', 'Pneumonia', 'Support Devices'”
-“'Cardiomegaly', 'Lung Opacity', 'Pneumonia', 'Support Devices'”
-“'Edema', 'Lung Opacity', 'Pleural Effusion', 'Pneumonia'”
-“'Lung Lesion', 'Support Devices'”
-“'Atelectasis', 'Consolidation', 'Lung Opacity', 'Pleural Effusion', 'Support Devices'”
-“'Cardiomegaly', 'Edema', 'Lung Opacity', 'Pneumonia', 'Support Devices'”
-“'Atelectasis', 'Consolidation', 'Pleural Effusion'”
-“'Atelectasis', 'Pneumonia'”
-“'Lung Lesion', 'Pleural Effusion'”
-“'Atelectasis', 'Pleural Effusion', 'Pneumonia'”
-“'Atelectasis', 'Cardiomegaly', 'Consolidation', 'Edema', 'Pleural Effusion', 'Support Devices'”
-“'Pleural Effusion', 'Pneumonia', 'Support Devices'”
-“'Atelectasis', 'Enlarged Cardiomediastinum', 'Pleural Effusion'”
-“'Atelectasis', 'Lung Opacity', 'Pneumothorax', 'Support Devices'”
-“'Atelectasis', 'Cardiomegaly', 'Lung Opacity', 'Pleural Effusion', 'Pneumonia', 'Support Devices'”
-“'Consolidation', 'Edema', 'Pleural Effusion', 'Pneumonia', 'Support Devices'”
-“'Atelectasis', 'Lung Opacity', 'Pleural Effusion', 'Pneumonia'”
-“'Atelectasis', 'Enlarged Cardiomediastinum', 'Support Devices'”
-“'Atelectasis', 'Consolidation', 'Support Devices'”
-“'Atelectasis', 'Cardiomegaly', 'Enlarged Cardiomediastinum', 'Pleural Effusion', 'Support Devices'”
-“'Consolidation', 'Edema'”
-“'Atelectasis', 'Cardiomegaly', 'Lung Opacity', 'Pneumonia'”
-“'Atelectasis', 'Consolidation', 'Edema', 'Pleural Effusion', 'Support Devices'”
-“'Consolidation', 'Lung Opacity', 'Pleural Effusion'”
-“'Cardiomegaly', 'Consolidation', 'Support Devices'”
-“'Cardiomegaly', 'Lung Opacity', 'Pneumothorax', 'Support Devices'”
-“'Enlarged Cardiomediastinum', 'Lung Opacity'”
-“'Atelectasis', 'Enlarged Cardiomediastinum'”
-“'Consolidation', 'Pleural Effusion', 'Pneumonia'”
+task: ['Lung Lesion'”，
+“'Support Devices'”，
+“'Lung Opacity'”，
+“'No Finding'”，
+“'Edema', 'Lung Opacity', 'Support Devices'”，
+“'Cardiomegaly'”，
+“'No Finding', 'Support Devices'”，
+“'Atelectasis', 'Lung Opacity', 'Pleural Effusion'”，
+“'Cardiomegaly', 'Pleural Effusion', 'Support Devices'”，
+“'Cardiomegaly', 'Support Devices'”，
+“'Cardiomegaly', 'Edema'”，
+“'Pleural Effusion', 'Support Devices'”，
+“'Cardiomegaly', 'Consolidation', 'Pleural Effusion', 'Support Devices'”，
+“'Atelectasis', 'Lung Opacity', 'Pleural Effusion', 'Support Devices'”，
+“'Edema', 'Support Devices'”，
+“'Atelectasis', 'Cardiomegaly', 'Edema', 'Pleural Effusion'”，
+“'Atelectasis', 'Pleural Effusion', 'Support Devices'”，
+“'Pneumonia'”，
+“'Atelectasis', 'Cardiomegaly', 'Edema', 'Lung Opacity', 'Pleural Effusion', 'Support Devices'”，
+“'Atelectasis', 'Support Devices'”，
+“'Atelectasis', 'Cardiomegaly', 'Lung Opacity', 'Pleural Effusion'”，
+“'Cardiomegaly', 'Lung Opacity', 'Support Devices'”，
+“'Atelectasis', 'Pleural Effusion'”，
+“'Atelectasis'”，
+“'Cardiomegaly', 'Lung Opacity', 'Pneumonia'”，
+“'Edema', 'Lung Opacity', 'Pleural Effusion', 'Support Devices'”，
+“'Edema', 'Pleural Effusion', 'Support Devices'”，
+“'Atelectasis', 'Pneumothorax', 'Support Devices'”，
+“'Atelectasis', 'Pleural Effusion', 'Pneumothorax', 'Support Devices'”，
+“'Cardiomegaly', 'Lung Opacity', 'Pleural Effusion', 'Support Devices'”，
+“'Cardiomegaly', 'Pleural Effusion'”，
+“'Atelectasis', 'Cardiomegaly', 'Pleural Effusion', 'Support Devices'”，
+“'Pleural Effusion'”，
+“'Lung Opacity', 'Pleural Effusion', 'Pneumonia', 'Support Devices'”，
+“'Lung Opacity', 'Support Devices'”，
+“'Consolidation', 'Lung Opacity', 'Support Devices'”，
+“'Edema', 'Pleural Effusion'”，
+“'Pneumothorax', 'Support Devices'”，
+“'Consolidation', 'Support Devices'”，
+“'Lung Lesion', 'Lung Opacity', 'Support Devices'”，
+“'Lung Opacity', 'Pleural Effusion', 'Pneumothorax', 'Support Devices'”，
+“'Atelectasis', 'Cardiomegaly', 'Support Devices'”，
+“'Atelectasis', 'Enlarged Cardiomediastinum', 'Lung Opacity', 'Support Devices'”，
+“'Lung Opacity', 'Pleural Effusion'”，
+“'Atelectasis', 'Cardiomegaly'”，
+“'Atelectasis', 'Cardiomegaly', 'Edema', 'Pleural Effusion', 'Support Devices'”，
+“'Atelectasis', 'Pneumothorax'”，
+“'Consolidation', 'Pleural Effusion'”，
+“'Cardiomegaly', 'Edema', 'Lung Opacity', 'Pneumonia'”，
+“'Fracture', 'Support Devices'”，
+“'Lung Opacity', 'Pleural Effusion', 'Support Devices'”，
+“'Cardiomegaly', 'Edema', 'Lung Opacity', 'Pleural Effusion', 'Support Devices'”，
+“'Edema', 'Lung Opacity', 'Pleural Effusion', 'Pneumonia', 'Support Devices'”，
+“'Atelectasis', 'Cardiomegaly', 'Pleural Effusion'”，
+“'Atelectasis', 'Edema', 'Lung Opacity', 'Pleural Effusion', 'Support Devices'”，
+“'Atelectasis', 'Cardiomegaly', 'Pneumothorax', 'Support Devices'”，
+“'Atelectasis', 'Cardiomegaly', 'Edema', 'Support Devices'”，
+“'Atelectasis', 'Lung Opacity', 'Support Devices'”，
+“'Edema', 'Lung Opacity'”，
+“'Edema', 'Lung Opacity', 'Pleural Effusion'”，
+“'Cardiomegaly', 'Lung Opacity'”，
+“'Cardiomegaly', 'Enlarged Cardiomediastinum'”，
+“'Atelectasis', 'Edema', 'Lung Opacity', 'Pleural Effusion'”，
+“'Edema'”，
+“'Enlarged Cardiomediastinum'”，
+“'Cardiomegaly', 'Lung Opacity', 'Pleural Effusion'”，
+“'Cardiomegaly', 'Edema', 'Lung Opacity', 'Pleural Effusion'”，
+“'Edema', 'Pneumonia'”，
+“'Consolidation', 'Edema', 'Pleural Effusion', 'Support Devices'”，
+“'Cardiomegaly', 'Edema', 'Support Devices'”，
+“'Lung Lesion', 'Lung Opacity', 'Pleural Effusion'”，
+“'Cardiomegaly', 'Consolidation', 'Edema', 'Pleural Effusion'”，
+“'Cardiomegaly', 'Consolidation'”,
+“'Cardiomegaly', 'Pneumonia'”,
+“'Atelectasis', 'Enlarged Cardiomediastinum', 'Lung Opacity', 'Pleural Effusion', 'Support Devices'”，
+“'Consolidation', 'Pneumonia'”，
+“'Atelectasis', 'Enlarged Cardiomediastinum', 'Pleural Effusion', 'Support Devices'”，
+“'Atelectasis', 'Edema', 'Pleural Effusion', 'Support Devices'”，
+“'Atelectasis', 'Cardiomegaly', 'Edema', 'Lung Opacity', 'Pleural Effusion'”，
+“'Pleural Effusion', 'Pneumonia'”，
+“'Consolidation', 'Lung Opacity', 'Pleural Effusion', 'Support Devices'”，
+“'Enlarged Cardiomediastinum', 'Lung Opacity', 'Support Devices'”，
+“'Pneumothorax'”，
+“'Consolidation', 'Pneumonia', 'Support Devices'”，
+“'Lung Opacity', 'Pneumonia'”，
+“'Consolidation', 'Pleural Effusion', 'Support Devices'”，
+“'Consolidation', 'Lung Opacity'”，
+“'Lung Opacity', 'Pneumonia', 'Support Devices'”，
+“'Edema', 'Lung Opacity', 'Pneumonia', 'Support Devices'”，
+“'Atelectasis', 'Cardiomegaly', 'Lung Opacity', 'Support Devices'”，
+“'Atelectasis', 'Cardiomegaly', 'Pleural Effusion', 'Pneumothorax', 'Support Devices'”，
+“'Atelectasis', 'Lung Opacity', 'Pleural Effusion', 'Pneumothorax', 'Support Devices'”，
+“'Cardiomegaly', 'Edema', 'Pleural Effusion', 'Support Devices'”，
+“'Atelectasis', 'Consolidation', 'Pleural Effusion', 'Support Devices'”，
+“'Cardiomegaly', 'Edema', 'Lung Opacity'”，
+“'Lung Opacity', 'Pleural Effusion', 'Pneumonia'”，
+“'Atelectasis', 'Edema', 'Support Devices'”，
+“'Cardiomegaly', 'Pneumothorax', 'Support Devices'”，
+“'Atelectasis', 'Edema', 'Pleural Effusion'”，
+“'Atelectasis', 'Lung Opacity', 'Pleural Effusion', 'Pneumonia', 'Support Devices'”，
+“'Atelectasis', 'Lung Opacity'”，
+“'Consolidation', 'Pleural Effusion', 'Pneumonia', 'Support Devices'”，
+“'Atelectasis', 'Cardiomegaly', 'Lung Opacity'”，
+“'Pneumonia', 'Support Devices'”，
+“'Cardiomegaly', 'Consolidation', 'Lung Opacity', 'Support Devices'”，
+“'Cardiomegaly', 'Consolidation', 'Edema', 'Pleural Effusion', 'Support Devices'”，
+“'Consolidation', 'Edema', 'Pleural Effusion'”，
+“'Consolidation'”，
+“'Atelectasis', 'Cardiomegaly', 'Edema'”，
+“'Atelectasis', 'Lung Opacity', 'Pneumonia', 'Support Devices'”，
+“'Lung Opacity', 'Pneumothorax', 'Support Devices'”，
+“'Pleural Effusion', 'Pneumothorax', 'Support Devices'”，
+“'Atelectasis', 'Cardiomegaly', 'Consolidation', 'Pleural Effusion', 'Support Devices'”，
+“'Atelectasis', 'Edema', 'Lung Opacity'”，
+“'Atelectasis', 'Cardiomegaly', 'Lung Opacity', 'Pleural Effusion', 'Support Devices'”，
+“'Enlarged Cardiomediastinum', 'Pleural Effusion', 'Support Devices'”，
+“'Atelectasis', 'Edema', 'Lung Opacity', 'Support Devices'”，
+“'Pleural Effusion', 'Pneumothorax'”，
+“'Lung Lesion', 'Lung Opacity'”，
+“'Edema', 'Enlarged Cardiomediastinum', 'Pleural Effusion', 'Support Devices'”，
+“'Edema', 'Pleural Effusion', 'Pneumonia', 'Support Devices'”，
+“'Consolidation', 'Pneumothorax', 'Support Devices'”，
+“'Enlarged Cardiomediastinum', 'Support Devices'”，
+“'Edema', 'Lung Opacity', 'Pneumonia'”，
+“'Cardiomegaly', 'Edema', 'Lung Opacity', 'Support Devices'”，
+“'Cardiomegaly', 'Lung Opacity', 'Pleural Effusion', 'Pneumonia', 'Support Devices'”，
+“'Atelectasis', 'Lung Opacity', 'Pneumonia'”，
+“'Cardiomegaly', 'Enlarged Cardiomediastinum', 'Support Devices'”，
+“'Atelectasis', 'Edema'”，
+“'Cardiomegaly', 'Edema', 'Pleural Effusion'”，
+“'Consolidation', 'Edema', 'Support Devices'”，
+“'Lung Opacity', 'Pneumothorax'”，
+“'Edema', 'Enlarged Cardiomediastinum', 'Support Devices'”，
+“'Atelectasis', 'Consolidation'”，
+“'Cardiomegaly', 'Lung Opacity', 'Pleural Effusion', 'Pneumonia'”，
+“'Atelectasis', 'Pleural Effusion', 'Pneumothorax'”，
+“'Fracture'”，
+“'Cardiomegaly', 'Consolidation', 'Pleural Effusion'”，
+“'Cardiomegaly', 'Edema', 'Lung Opacity', 'Pleural Effusion', 'Pneumonia'”，
+“'Cardiomegaly', 'Pleural Effusion', 'Pneumothorax', 'Support Devices'”，
+“'Cardiomegaly', 'Pneumothorax'”，
+“'Cardiomegaly', 'Consolidation', 'Edema', 'Pleural Effusion', 'Pneumonia', 'Support Devices'”，
+“'Cardiomegaly', 'Lung Opacity', 'Pneumonia', 'Support Devices'”，
+“'Edema', 'Lung Opacity', 'Pleural Effusion', 'Pneumonia'”，
+“'Lung Lesion', 'Support Devices'”，
+“'Atelectasis', 'Consolidation', 'Lung Opacity', 'Pleural Effusion', 'Support Devices'”，
+“'Cardiomegaly', 'Edema', 'Lung Opacity', 'Pneumonia', 'Support Devices'”，
+“'Atelectasis', 'Consolidation', 'Pleural Effusion'”，
+“'Atelectasis', 'Pneumonia'”，
+“'Lung Lesion', 'Pleural Effusion'”，
+“'Atelectasis', 'Pleural Effusion', 'Pneumonia'”，
+“'Atelectasis', 'Cardiomegaly', 'Consolidation', 'Edema', 'Pleural Effusion', 'Support Devices'”，
+“'Pleural Effusion', 'Pneumonia', 'Support Devices'”，
+“'Atelectasis', 'Enlarged Cardiomediastinum', 'Pleural Effusion'”，
+“'Atelectasis', 'Lung Opacity', 'Pneumothorax', 'Support Devices'”，
+“'Atelectasis', 'Cardiomegaly', 'Lung Opacity', 'Pleural Effusion', 'Pneumonia', 'Support Devices'”，
+“'Consolidation', 'Edema', 'Pleural Effusion', 'Pneumonia', 'Support Devices'”，
+“'Atelectasis', 'Lung Opacity', 'Pleural Effusion', 'Pneumonia'”，
+“'Atelectasis', 'Enlarged Cardiomediastinum', 'Support Devices'”，
+“'Atelectasis', 'Consolidation', 'Support Devices'”，
+“'Atelectasis', 'Cardiomegaly', 'Enlarged Cardiomediastinum', 'Pleural Effusion', 'Support Devices'”，
+“'Consolidation', 'Edema'”，
+“'Atelectasis', 'Cardiomegaly', 'Lung Opacity', 'Pneumonia'”，
+“'Atelectasis', 'Consolidation', 'Edema', 'Pleural Effusion', 'Support Devices'”，
+“'Consolidation', 'Lung Opacity', 'Pleural Effusion'”，
+“'Cardiomegaly', 'Consolidation', 'Support Devices'”，
+“'Cardiomegaly', 'Lung Opacity', 'Pneumothorax', 'Support Devices'”，
+“'Enlarged Cardiomediastinum', 'Lung Opacity'”，
+“'Atelectasis', 'Enlarged Cardiomediastinum'”，
+“'Consolidation', 'Pleural Effusion', 'Pneumonia'”，
 “'Enlarged Cardiomediastinum', 'Lung Opacity', 'Pleural Effusion', 'Support Devices'”
 ]
 base_mode: 'seqF'
