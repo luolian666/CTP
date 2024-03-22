@@ -24,6 +24,6 @@ window_size: 50
 #CL
 max_epoch: 5
 #task: ['Normal', 'Abnormal', 'Uncategorized']
-task: ['Lung Lesion'，'Support Devices'，'Lung Opacity','No Finding','Edema','Cardiomegaly','Atelectasis','Consolidation','Pneumonia','Pneumothorax', 'Enlarged Cardiomediastinum','Fracture']
+task: ['Lung Lesion','Support Devices','Lung Opacity','No Finding','Edema','Cardiomegaly','Atelectasis','Consolidation','Pneumonia','Pneumothorax','Enlarged Cardiomediastinum','Fracture']
 base_mode: 'seqF'
 
