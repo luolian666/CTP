@@ -196,7 +196,7 @@ def main(args,config,industry_id_label, all_id_info, device):
             ref_model = copy.deepcopy(model_without_ddp)
             # init_state_dict = copy.deepcopy(model_without_ddp.state_dict())
             model_params = {n : p for n, p in model.module.named_parameters() if p.requires_grad}
-            optimizer = torch.optim.AdamW([{'params': model_params[key], 'lr':config['init_lr']} for key in model_params.keys()],weight_decay=config['weight_decay'])
+            optimizer = torch.optim.SGD([{'params': model_params[key], 'lr':config['init_lr']} for key in model_params.keys()],weight_decay=config['weight_decay'])
             print(f'now init_lr {a_init_lr}, now min_lr {b_min_lr}')
             lr_schedule = utils.cosine_scheduler(init_lr = a_init_lr, min_lr = b_min_lr, epochs =config['max_epoch'], niter_per_ep = len(data_loader))
 
