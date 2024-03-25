@@ -20,7 +20,7 @@ from product_evaluation import evaluation, itm_eval, evaluation_multi_modal
 import codecs
 from torch.cuda.amp import autocast as autocast
 import tensorboard_logger as tb_logger
-
+import  yaml
 
 sys.stdout = codecs.getwriter("utf-8")(sys.stdout.detach())
 Eiters = 0
