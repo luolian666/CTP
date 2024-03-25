@@ -219,8 +219,8 @@ def main_EWC(args,config,industry_id_label, all_id_info, device):
         print("***** Running training *****")
         print(f"Num iters = {len(data_loader)},  Batch size = {config['batch_size_train']}")
         if iteration==0:
-            optimizer = torch.optim.AdamW(params=model.parameters(), lr=config['init_lr'], weight_decay=config['weight_decay'])
-            a_init_lr, b_min_lr = config['init_lr'], config['min_lr']
+            optimizer = torch.optim.AdamW(params=model.parameters(), lr=float(config['init_lr']), weight_decay=config['weight_decay'])
+            a_init_lr, b_min_lr = float(config['init_lr']), float(config['min_lr'])
             print(f'now init_lr {a_init_lr}, now init_lr {b_min_lr}')
             lr_schedule = utils.cosine_scheduler(init_lr = a_init_lr, min_lr = b_min_lr, epochs =config['max_epoch'], niter_per_ep = len(data_loader))
 
