@@ -22,7 +22,7 @@ max_words: 80
 window_size: 50
 
 #CL
-max_epoch:10
+max_epoch: 10
 #task: ['Normal', 'Abnormal', 'Uncategorized']
 task: ['Lung Lesion','Lung Opacity','No Finding','Edema','Cardiomegaly','Atelectasis','Consolidation','Pneumonia','Pneumothorax','Enlarged Cardiomediastinum','Fracture','None']
 base_mode: 'seqF'
