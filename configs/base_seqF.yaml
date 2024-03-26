@@ -17,7 +17,7 @@ batch_size_test: 16
 weight_decay: 0.05
 init_lr: 3e-5
 min_lr: 1e-7
-k_test: 10
+k_test: 200
 max_words: 80
 window_size: 50
 
